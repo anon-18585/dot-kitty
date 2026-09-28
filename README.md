@@ -1,2 +1,3 @@
 # dot-kitty
-kitty dotfiles
+
+*** Kitty dotfile in monochrome theme ***
