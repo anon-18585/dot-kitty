@@ -1,3 +1,3 @@
 # dot-kitty
 
-*** Kitty dotfile in monochrome theme ***
+##*Kitty dotfile in a monochrome theme*##
