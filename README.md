@@ -1,0 +1,2 @@
+# dot-kitty
+kitty dotfiles
