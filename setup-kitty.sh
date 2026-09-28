@@ -32,6 +32,7 @@ esac
 
 rsync -arvhP --delete  ~/dot-kitty/kitty/ ~/.config/kitty/
 
+rmdir --ignore-fail-on-non-empty ~/dot-kitty
 echo
 
 echo "Setup Finished."
