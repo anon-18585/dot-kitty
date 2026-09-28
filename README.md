@@ -3,8 +3,11 @@
 
 > # dot-kitty is :
 >
-> >## a **Kitty dotfile**
+> >## a **Kitty config**
 > >
 > > > ### in a _monochrome_ theme
+> > > >
+> > > > #### with a pure black background
+> > > >
 > > > > #### that _pairs_ really well with my [fastfetch config][dot-fastfetch]
-> > > ### with a pure black background
+> > >
