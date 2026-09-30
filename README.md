@@ -5,7 +5,7 @@
 >
 > > ## a **Kitty config**
 > >
-> > > ### in a _monochrome_ theme
+> > > ### in a theme with dimmed colors 
 > > > >
 > > > > #### with a pure black background
 > > > >
