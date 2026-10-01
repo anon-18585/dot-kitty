@@ -15,7 +15,9 @@ case "$backup" in
         echo
         echo "your backup will be archived to ~/.config/kitty/backup/"
         echo
-        tar -cvzf ~/.config/kitty/kitty-backup.tar.gz ~/.config/kitty
+        mkdir ~/.config/kitty/backup
+        echo
+        tar -cvzf ~/.config/kitty/backup/kitty-backup.tar.gz --exclude=~/.config/kitty/backup ~/.config/kitty
     ;;
     [Nn]|[Nn])
         echo
