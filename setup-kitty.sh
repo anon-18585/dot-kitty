@@ -5,7 +5,7 @@ set -euo pipefail
 files=(
     kitty.conf
     themes/
-    themes/monochrome.conf
+    themes/monochrome&red.conf
 )
 
 #ask a question
