@@ -17,6 +17,6 @@
 
 2. ### _- tar_
  
-2.5 ### _- gzip_ 
+3. ### _- gzip_ 
 
-3. ### _- [rsync][rsync-wiki]_
+4. ### _- [rsync][rsync-wiki]_
