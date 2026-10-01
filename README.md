@@ -12,12 +12,11 @@
 > > > > #### that _pairs_ really well with my [fastfetch config][dot-fastfetch]
 > > > ### [default keybinds][kitty-keybinds]
 
- ## _Requirements for the setup_
-> 
-> > ### _- bash_ 
-> >
-> > ### _- tar_
-> > 
-> > ### _- gzip_ 
-> >
-> > ### _- [rsync][rsync-wiki]_
+ ## _Requirements for the setup_  
+1. ### _- bash_ 
+
+2. ### _- tar_
+ 
+2.5 ### _- gzip_ 
+
+3. ### _- [rsync][rsync-wiki]_
