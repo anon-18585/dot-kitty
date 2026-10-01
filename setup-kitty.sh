@@ -12,17 +12,20 @@ read -r -p "Do you want to backup your actual kitty config ? [y/n] " backup
 
 case "$backup" in
     [Yy]|[Yy])
-    echo
-    read -p "Where do you want to save the backup " path
-    echo
-    tar -cvf $path ~/.config/kitty
+        echo
+        echo "your backup will be archived to ~/.config/kitty/backup/"
+        echo
+        tar -cvzf ~/.config/kitty/kitty-backup.tar.gz ~/.config/kitty
     ;;
-    [Nn]|[Nn)]
-
-
-
-
+    [Nn]|[Nn])
+        echo
+        echo "let's proceed with the setup then"
+        echo
     ;;
+*)
+    echo "Invalid answer."
+    exit 1
+esac
 
     #ask a question
     echo
@@ -41,7 +44,7 @@ case "$backup" in
             exit 0
             ;;
     *)
-        echo {Invalid answer.}
+        echo "Invalid answer."
         exit 1
         ;;
     esac

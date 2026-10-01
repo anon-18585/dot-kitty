@@ -7,7 +7,12 @@
 > >
 > > > ### in a theme with monochrome & red colorscheme 
 > > > >
-> > > > #### with a pure black background
-> > > >
 > > > > #### that _pairs_ really well with my [fastfetch config][dot-fastfetch]
-> > > ### with the [default keybinds][kitty-keybinds]
+> > > ### [default keybinds][kitty-keybinds]
+
+> ## Requirements 
+> 
+> > bash 
+> > tar
+> > gzip 
+> > rsync
