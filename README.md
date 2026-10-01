@@ -1,6 +1,8 @@
 [dot-fastfetch]: https://github.com/anon-18585/dot-fastfetch
 [kitty-keybinds]: https://gist.github.com/AskinNet/0d0d4f7f0ee221f8362af9d9876d021a#file-kitty-md
 
+[rsync-wiki]: https://wiki.archlinux.org/title/Rsync
+
 > # dot-kitty is :
 >
 > > ## a **Kitty config**
@@ -15,7 +17,7 @@
 > > ### _- bash_ 
 > >
 > > ### _- tar_
+> > 
+> > ### _- gzip_ 
 > >
-> > ### _- gzip_
-> >
-> > ### _- rsync_
+> > ### _- [rsync][rsync-wiki]_
