@@ -12,10 +12,10 @@
 
 > ## Requirements 
 > 
-> > bash 
+> > _- bash_ 
 > >
-> > tar
+> > _- tar_
 > >
-> > gzip
+> > _- gzip_
 > >
-> > rsync
+> > _- rsync_
