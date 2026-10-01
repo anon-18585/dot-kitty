@@ -13,6 +13,9 @@
 > ## Requirements 
 > 
 > > bash 
+> >
 > > tar
-> > gzip 
+> >
+> > gzip
+> >
 > > rsync
