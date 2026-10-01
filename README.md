@@ -12,7 +12,7 @@
 > > > > #### that _pairs_ really well with my [fastfetch config][dot-fastfetch]
 > > > ### [default keybinds][kitty-keybinds]
 
- ## Requirements 
+ ## _Requirements for the setup_
 > 
 > > ### _- bash_ 
 > >
