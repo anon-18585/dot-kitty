@@ -20,7 +20,7 @@ case "$backup" in
         mkdir -p backup
         echo
         cd backup/
-        tar -czfP kitty-bactkup.tar.gz --exclude=../backup ../
+        tar -czPf kitty-bactkup.tar.gz --exclude=../backup ../
         echo
         echo "Backup completed."
     ;;
