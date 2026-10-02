@@ -20,7 +20,7 @@ case "$backup" in
         mkdir -p backup
         echo
         cd backup/
-        tar -cvzf kitty-backup.tar.gz --exclude=../backup ../
+        tar -czf kitty-backup.tar.gz --exclude=../backup ../
     ;;
     [Nn]|[Nn])
         echo
