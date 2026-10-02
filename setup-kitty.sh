@@ -21,6 +21,8 @@ case "$backup" in
         echo
         cd backup/
         tar -czf kitty-backup.tar.gz --exclude=../backup ../
+        echo
+        echo "Backup completed."
     ;;
     [Nn]|[Nn])
         echo
