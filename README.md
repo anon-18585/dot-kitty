@@ -3,13 +3,13 @@
 
 [rsync-wiki]: https://wiki.archlinux.org/title/Rsync
 
-> # dot-kitty is :
+> # **dot-kitty** is :
 >
-> > ## a **Kitty config**
+> > ## a ***Kitty config***
 > > 
-> > > ### with the [default keybinds][kitty-keybinds]
+> > > ### with the **[default keybinds]**[kitty-keybinds]
 ---
-# you can do it manually or using the setup-kitty.sh
+## you can do it manually or using the setup-kitty.sh
 ---
  ## Requirements for the *setup*  
  1. ###  _bash_                 
@@ -17,4 +17,10 @@
  3. ###  _gzip_                 
  4. ###  _[rsync][rsync-wiki]_
  ---
- ## *manually*
+ ## *Manually* without ***current config backup***
+ ''' bash
+ git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
+ cd ~/dot-kitty/
+ rm -rf ~/.config/kitty/
+ mv ~/dot-kitty/kitty/ ~/.config/kitty/
+ '''
