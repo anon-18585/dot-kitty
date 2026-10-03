@@ -17,11 +17,15 @@
  3. ###  _gzip_                 
  4. ###  _[rsync][rsync-wiki]_
  ---
- ## *Manually* without ***current config backup***
- ```bash
- git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
- cd ~/dot-kitty/
- rm -rf ~/.config/kitty/
- mv ~/dot-kitty/kitty/ ~/.config/kitty/
- rm -rf ~/dot-kitty
- ```
+| with ***current config backup*** | without ***current config backup*** |
+|----------------------------------|-------------------------------------|
+| ```bash
+git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
+cd ~/dot-kitty/
+rm -rf ~/.config/kitty/
+mv ~/dot-kitty/kitty/ ~/.config/kitty/
+cd
+rm -rf ~/dot-kitty
+echo
+echo "config merged."
+``` ---: |
