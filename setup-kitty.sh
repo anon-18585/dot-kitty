@@ -5,7 +5,8 @@ set -euo pipefail
 files=(
     kitty.conf
     themes/
-    themes/monochrome.conf
+    themes/noctalia.conf
+    themes/exemple.conf
 )
 
 read -r -p "Do you want to backup your actual kitty config ? [y/n] " backup
@@ -20,7 +21,7 @@ case "$backup" in
         mkdir -p backup/
         echo
         cd backup/
-        tar -czf kitty-backup.tar.gz
+        tar -czf kitty-backup.tar.gz ~/.config/kitty
         echo
         echo "Backup completed."
     ;;
