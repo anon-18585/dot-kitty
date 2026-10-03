@@ -13,14 +13,14 @@ read -r -p "Do you want to backup your actual kitty config ? [y/n] " backup
 case "$backup" in
     [Yy]|[Yy])
         echo
-        echo "your backup will be archived to ~/.config/kitty/backup/"
+        echo "your backup will be archived to ~/.config/backup/"
         echo
-        cd ~/.config/kitty/
+        cd ~/.config/
         echo
-        mkdir -p backup
+        mkdir -p backup/
         echo
         cd backup/
-        tar -czf kitty-bactkup.tar.gz --exclude=../backup ../
+        tar -czf kitty-backup.tar.gz
         echo
         echo "Backup completed."
     ;;
@@ -56,7 +56,7 @@ esac
         ;;
     esac
 
-    rsync -arvhP --delete --exclude=~/.config/kitty/backup  ~/dot-kitty/kitty/ ~/.config/kitty/
+    rsync -arvhP --update  ~/dot-kitty/kitty/ ~/.config/kitty/
 
     echo
     rm -rf ~/dot-kitty
