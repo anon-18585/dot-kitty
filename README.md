@@ -6,10 +6,7 @@
 > # dot-kitty is :
 >
 > > ## a **Kitty config**
-> >
-> > > ### in a theme with monochrome & red colorscheme 
-> > > >
-> > > > #### that _pairs_ really well with my [fastfetch config][dot-fastfetch]
+> > 
 > > > ### [default keybinds][kitty-keybinds]
 
 # you can do it manually or using the setup-kitty.sh
