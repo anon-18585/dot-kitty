@@ -29,6 +29,7 @@ rm -rf ~/dot-kitty
 echo
 echo "config merged."
 ```
+---
 
 | with ***current config backup*** |
 |----------------------------------|
