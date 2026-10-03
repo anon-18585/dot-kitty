@@ -7,7 +7,7 @@
 >
 > > ## a ***Kitty config***
 > > 
-> > > ### with the [**default keybinds**][kitty-keybinds]
+> > > ### [**default keybinds**][kitty-keybinds]
 ---
 ## you can do it manually or using the setup-kitty.sh
 ---
