@@ -7,14 +7,14 @@
 >
 > > ## a **Kitty config**
 > > 
-> > > ### [default keybinds][kitty-keybinds]
-
+> > > ### with the [default keybinds][kitty-keybinds]
+---
 # you can do it manually or using the setup-kitty.sh
-
- ## _Requirements for the setup_  
+---
+ ## Requirements for the *setup*  
  1. ###  _bash_                 
  2. ###  _tar_                  
  3. ###  _gzip_                 
  4. ###  _[rsync][rsync-wiki]_
- 
- ## _
+ ---
+ ## *manually*
