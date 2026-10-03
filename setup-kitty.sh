@@ -56,7 +56,7 @@ esac
         ;;
     esac
 
-    rsync -arvhP --delete --exlude=../backup  ~/dot-kitty/kitty/ ~/.config/kitty/
+    rsync -arvhP --delete --exclude=~/.config/kitty/backup  ~/dot-kitty/kitty/ ~/.config/kitty/
 
     echo
     rm -rf ~/dot-kitty
