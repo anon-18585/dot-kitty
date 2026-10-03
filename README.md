@@ -1,4 +1,4 @@
-[dot-fastfetch]: https://github.com/anon-18585/dot-fastfetch
+
 [kitty-keybinds]: https://gist.github.com/AskinNet/0d0d4f7f0ee221f8362af9d9876d021a#file-kitty-md
 
 [rsync-wiki]: https://wiki.archlinux.org/title/Rsync
@@ -12,7 +12,9 @@
 # you can do it manually or using the setup-kitty.sh
 
  ## _Requirements for the setup_  
- 1. ### _- bash_                 
- 2. ### _- tar_                  
- 3. ### _- gzip_                 
- 4. ### _- [rsync][rsync-wiki]_
+ 1. ###  _bash_                 
+ 2. ###  _tar_                  
+ 3. ###  _gzip_                 
+ 4. ###  _[rsync][rsync-wiki]_
+ 
+ ## _
