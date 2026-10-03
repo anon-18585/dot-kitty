@@ -19,8 +19,28 @@
  ---
 | without ***current config backup*** |
 |-------------------------------------|
-```bash without
+```bash
 git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
+cd ~/dot-kitty/
+rm -rf ~/.config/kitty/
+mv ~/dot-kitty/kitty/ ~/.config/kitty/
+cd
+rm -rf ~/dot-kitty
+echo
+echo "config merged."
+```
+
+| with ***current config backup*** |
+|----------------------------------|
+```bash
+mkdir -p ~/.config/kitty/backup/
+cd ~/.config/kitty/backup/
+tar -czf kitty-backup-$(date +%F).tar.gz ~/.config/kitty
+echo
+echo " config backup archived to ~/.config/kitty/backup/ . "
+echo
+git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
+echo
 cd ~/dot-kitty/
 rm -rf ~/.config/kitty/
 mv ~/dot-kitty/kitty/ ~/.config/kitty/

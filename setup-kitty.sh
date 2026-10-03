@@ -21,7 +21,7 @@ case "$backup" in
         mkdir -p backup/
         echo
         cd backup/
-        tar -czf kitty-backup.tar.gz ~/.config/kitty
+	tar -czf kitty-backup-$(date +%F).tar.gz ~/.config/kitty
         echo
         echo "Backup completed."
     ;;
