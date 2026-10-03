@@ -23,4 +23,5 @@
  cd ~/dot-kitty/
  rm -rf ~/.config/kitty/
  mv ~/dot-kitty/kitty/ ~/.config/kitty/
+ rm -rf ~/dot-kitty
  ```
