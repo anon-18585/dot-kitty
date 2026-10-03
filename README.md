@@ -36,7 +36,7 @@ echo "config merged."
 ```bash
 mkdir -p ~/.config/kitty/backup/
 cd ~/.config/kitty/backup/
-tar -czf kitty-backup-$(date +%F).tar.gz --exclude='~/.config/kitty/backup' ~/.config/kitty
+  tar -czf kitty-backup-$(date +%F).tar.gz --exclude='../backup' ../
 echo
 echo " config backup archived to ~/.config/kitty/backup/ . "
 echo

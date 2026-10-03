@@ -16,12 +16,10 @@ case "$backup" in
         echo
         echo "your backup will be archived to ~/.config/backup/"
         echo
-        cd ~/.config/
+        mkdir -p ~/.config/kitty/backup/
         echo
-        mkdir -p backup/
-        echo
-        cd backup/
-	tar -czf kitty-backup-$(date +%F).tar.gz ~/.config/kitty
+        cd ~/.config/kitty/backup/
+          tar -czf kitty-backup-$(date +%F).tar.gz --exclude='../backup' ../
         echo
         echo "Backup completed."
     ;;
