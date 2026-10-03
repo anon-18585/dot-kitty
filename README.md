@@ -17,8 +17,8 @@
  3. ###  _gzip_                 
  4. ###  _[rsync][rsync-wiki]_
  ---
-| with ***current config backup*** | without ***current config backup*** |
-|----------------------------------|-------------------------------------|
+| without ***current config backup*** |
+|-------------------------------------|
 ```bash without
 git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
 cd ~/dot-kitty/
