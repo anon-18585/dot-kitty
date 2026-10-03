@@ -19,7 +19,7 @@
  ---
 | with ***current config backup*** | without ***current config backup*** |
 |----------------------------------|-------------------------------------|
-| ```bash
+```bash without
 git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
 cd ~/dot-kitty/
 rm -rf ~/.config/kitty/
@@ -28,4 +28,4 @@ cd
 rm -rf ~/dot-kitty
 echo
 echo "config merged."
-``` ---: |
+```
