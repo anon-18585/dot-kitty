@@ -44,7 +44,7 @@ echo
 cd ~/dot-kitty/
 echo
 rm -f ~/.config/kitty/kitty.conf
-mv ~/dot-kitty/kitty/ ~/.config/kitty/
+mv ~/dot-kitty/kitty/themes/ ~/.config/kitty
 cd
 rm -rf ~/dot-kitty
 echo
