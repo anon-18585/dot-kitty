@@ -42,6 +42,8 @@ echo
 git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
 echo
 cd ~/dot-kitty/
+mkdir -p ~/.config/kitty
+echo
 rm -rf ~/.config/kitty/
 mv ~/dot-kitty/kitty/ ~/.config/kitty/
 cd
