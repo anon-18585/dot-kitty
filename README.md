@@ -1,15 +1,12 @@
 
 [kitty-keybinds]: https://gist.github.com/AskinNet/0d0d4f7f0ee221f8362af9d9876d021a#file-kitty-md
 
-[rsync-wiki]: https://wiki.archlinux.org/title/Rsync
+[setup-backup]: 
+[setup]: 
 
-> # **dot-kitty** is :
->
-> > ## a ***Kitty config***
-> > 
-> > > ### [**default keybinds**][kitty-keybinds]
+ ### [**default keybinds**][kitty-keybinds]
 ---
-## you can do it manually or using the setup-kitty.sh
+## you can do it manually or using the following setup 
 ---
  ## Requirements for the *setup*  
  1. ###  _bash_                 
@@ -18,7 +15,7 @@
 
 ---
 
-| with ***current config backup*** |
+| with [***current config backup***][] |
 |----------------------------------|
 ```bash
 mkdir -p ~/.config/kitty/backup/
