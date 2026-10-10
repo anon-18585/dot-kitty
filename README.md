@@ -1,8 +1,8 @@
 
 [kitty-keybinds]: https://gist.github.com/AskinNet/0d0d4f7f0ee221f8362af9d9876d021a#file-kitty-md
 
-[setup-backup]: 
-[setup]: 
+[setup-backup]: https://github.com/anon-18585/kitty/blob/main/setup-backup.sh
+[setup]: https://github.com/anon-18585/kitty/blob/main/setup.sh
 
  ### [**default keybinds**][kitty-keybinds]
 ---
@@ -15,7 +15,7 @@
 
 ---
 
-| with [***current config backup***][] |
+| [with ***current config backup***][setup-backup] |
 |----------------------------------|
 ```bash
 mkdir -p ~/.config/kitty/backup/
@@ -42,7 +42,7 @@ echo "config merged."
 
 ---
 
-| without ***current config backup*** |
+| [without ***current config backup***][setup] |
 |-------------------------------------|
 ```bash
 git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
