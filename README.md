@@ -15,20 +15,7 @@
  1. ###  _bash_                 
  2. ###  _tar_                  
  3. ###  _gzip_                 
- 4. ###  _[rsync][rsync-wiki]_
- ---
-| without ***current config backup*** |
-|-------------------------------------|
-```bash
-git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
-cd ~/dot-kitty/
-rm -rf ~/.config/kitty/kitty.conf
-mv ~/dot-kitty/kitty/ ~/.config/kitty/
-cd
-rm -rf ~/dot-kitty
-echo
-echo "config merged."
-```
+
 ---
 
 | with ***current config backup*** |
@@ -50,6 +37,21 @@ mkdir -p ~/.config/kitty/themes/
 mv ~/dot-kitty/kitty/themes/noctalia.conf ~/.config/kitty/themes/
 mv ~/dot-kitty/kitty/themes/exemple.conf ~/.config/kitty/themes/
 
+cd
+rm -rf ~/dot-kitty
+echo
+echo "config merged."
+```
+
+---
+
+| without ***current config backup*** |
+|-------------------------------------|
+```bash
+git clone https://github.com/anon-18585/dot-kitty.git ~/dot-kitty
+cd ~/dot-kitty/
+rm -rf ~/.config/kitty/kitty.conf
+mv ~/dot-kitty/kitty/ ~/.config/kitty/
 cd
 rm -rf ~/dot-kitty
 echo
